@@ -1,0 +1,14 @@
+{
+    "name": "pwa_lukeallen",
+    "short_name": "pwala",
+    "lang": "en-GB",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "icons/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

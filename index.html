@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>pwa_lukeallen</title>
+
+    <!-- REQUIRED FOR PWA -->
+    <!-- MANIFEST FILE CONTAINING INFORMATION FOR APPLICATION -->
+    <link rel="manifest" href="manifest.json">
+    <!-- REGISTER THE SERVICE WORKER FOR OFFLINE AVAILABILITY (ALLOWS INSTALLATION) -->
+    <script type="module" src="pwabuilder-sw-register.js"></script>
+
+    <!-- THIS LETS MOBILE BROWSERS KNOW THAT THIS PWA CAN BE INSTALLED -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="pwala">
+    <meta name="apple-mobile-web-app-title" content="pwala">
+    <meta name="msapplication-starturl" content="/">
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+</body>
+
+</html>
